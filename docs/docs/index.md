@@ -9,6 +9,7 @@ This project requires the following components:
 - MFRC522 RFID Reader
 - Push Button
 - Relay Module
+- Heat Sink (optional)
 
 ## Connection diagram
 **TODO: add circuit diagram**

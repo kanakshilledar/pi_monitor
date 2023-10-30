@@ -4,10 +4,16 @@ A smart fablab resource monitoring device built using Raspberry Pi
 
 ## Documentation
 **UNDER DEVELOPMENT** 
+The documentation is built using [mkdocs](https://mkdocs.org)
+Run the documentation using
+```commandline
+$ cd docs
+$ mkdocs serve
+```
 
 ## Build Instructions
 You will need to obtain the service account credentials for accessing google sheets and google drive apis.
-```sh
+```commandline
 $ sudo apt install python3-venv
 $ git clone https://github.com/kanakshilledar/pi_monitor
 $ cd pi_monitor

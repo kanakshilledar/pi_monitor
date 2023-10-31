@@ -1,4 +1,4 @@
 fabenv
-.idea
+.idea/
 __pycache__
 credentials.json

@@ -1,5 +1,5 @@
 # Pi Monitor
-A smart fablab resource monitoring device built using Raspberry Pi
+A smart makerspace resource monitoring device built using Raspberry Pi
 
 **This project is under active development and not intended for production use**
 

@@ -52,7 +52,7 @@ It will be inside the Interfaces option. Once enabled reboot Raspberry Pi to pro
 ```commandline
 $ git clone https://github.com/kanakshilledar/pi_monitor
 $ cd pi_monitor
-$ source fabenv/bin/activate
+$ pip3 install requirements.txt
 $ python3 main.py
 ```
 You can see the realtime updates on this [spreadsheet](https://docs.google.com/spreadsheets/d/1BrL5Otvrh-FoOBY85auZIQjPN3vux14J4V3oUd4Tpfk/).

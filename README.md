@@ -16,12 +16,9 @@ $ mkdocs serve
 ## Build Instructions
 You will need to obtain the service account credentials for accessing google sheets and google drive apis.
 
-**TODO: add python environment files**
-
 ```commandline
-$ sudo apt install python3-venv
 $ git clone https://github.com/kanakshilledar/pi_monitor
 $ cd pi_monitor
-$ source fabenv/bin/activate
+$ pip3 install -r requirements.txt
 $ python3 main.py
 ```

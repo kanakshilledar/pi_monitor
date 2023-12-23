@@ -54,10 +54,12 @@ if __name__ == '__main__':
         id, text = reader.read()
         print("[+] ID: ", id)
         print("[+] Text: ", text)
-        if id is not None and id != '' and MACHINE_STATE == False:
+        if id is not None and id == '508186744633' and MACHINE_STATE == False:
             MACHINE_STATE = not MACHINE_STATE
             update = push_data('3d_printer', id, status=MACHINE_STATE)
             last_user = update
             GPIO.output(PWR_PIN, GPIO.HIGH)
             print("[*] Updated Entry: ", last_user)
+        else:
+            print("[*] Only USER: 508186744633 can access")
     
